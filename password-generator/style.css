@@ -1,0 +1,158 @@
+body {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#121212, #212b46);
+}
+
+main {
+  position: relative;
+  backdrop-filter: blur(15px);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+}
+
+.generate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #192a32;
+  width: 25rem;
+  height: 20rem;
+  border-radius: 2rem;
+}
+
+.generate h3 {
+  font-size: 2rem;
+  background-image: linear-gradient(
+    to bottom,
+    rebeccapurple,
+    steelblue,
+    turquoise
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #ffffff;
+}
+
+.generate textarea {
+  background: #a8bec9;
+  width: 17rem;
+  height: 2rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 1rem;
+  color: #1c2c35;
+  padding-top: 0.3rem;
+  resize: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.generate button {
+  width: 70%;
+  border-radius: 1rem;
+  box-shadow: 0 3px 0 #0d1f28;
+  color: #33c2be;
+  font-weight: bold;
+  text-transform: uppercase;
+  height: 3rem;
+  cursor: pointer;
+  border: none;
+  background: #20353f;
+}
+
+.generate .copy-save {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 10rem;
+}
+
+.generate .copy-save #copy {
+  margin-right: 1rem;
+  color: #1c2c35;
+  background: #31c3be;
+}
+
+.generate .copy-save #save {
+  color: #1c2c35;
+  background: #efb336;
+}
+
+.password-saved {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
+
+table {
+  border-spacing: 10px;
+}
+
+table th {
+  width: 15rem;
+}
+
+table tbody tr {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  align-items: center;
+  height: 2rem;
+  border-radius: 50px;
+  background-color: #a8bec9;
+  color: #0d1f28;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+table tbody tr button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+table tbody tr .fa-copy {
+  color: #efb336;
+}
+
+table tbody tr .fa-trash {
+  color: #186360;
+}
+
+
+@media screen and (max-width: 1024px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  .password-saved {
+    margin: 4rem auto 2rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .generate {
+    width: 90vw;
+  }
+
+  .generate h3 {
+    font-size: 1.2rem;
+  }
+
+  .generate textarea {
+    width: 9rem;
+  }
+
+  .password-saved {
+    margin: 4rem auto 2rem;
+  }
+}

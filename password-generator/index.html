@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="shortcut icon" href="../assets/images/icon.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../assets/styles/global.css" />
+    <link rel="stylesheet" href="../assets/styles/header-footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+    />
+  </head>
+  <body>
+    <main class="container" id="container">
+      <section class="generate">
+
+        <h3>Generate Password</h3>
+        <button data-js="generate">Generate</button>
+        <textarea disabled id="password" placeholder="Password with 10 caracters"></textarea>
+
+        <div class="copy-save">
+          <button id="copy" data-js="copy">Copy</button>
+          <button id="save"data-js="save">Save</button>
+        </div>
+      </section>
+
+      <section class="password-saved">
+        <div>
+          <table>
+            Saved Passwords
+            <thead>
+              <th>Password</th>
+            </thead>
+            <tbody data-js="passowrds">
+            </tbody>
+          </table>
+      </section>
+      
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
