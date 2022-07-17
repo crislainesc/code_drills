@@ -19,5 +19,7 @@ Tecnologias utilizadas até o momento:
 
 - [Analog Clock Using HTML, CSS & JavaScript](./analog-clock/)
 
+- [Typing Speed Test Using HTML, CSS & JavaScript](./typing-speed-test/)
+
 ---
 ⌨️ com ❤️ por [Crislâine Santos](https://gist.github.com/crislainesc) 😊
