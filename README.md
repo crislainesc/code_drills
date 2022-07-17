@@ -17,6 +17,7 @@ Tecnologias utilizadas até o momento:
 
 - [Password Generator Using HTML, CSS & JavaScript](./password-generator/)
 
+- [Analog Clock Using HTML, CSS & JavaScript](./analog-clock/)
 
 ---
 ⌨️ com ❤️ por [Crislâine Santos](https://gist.github.com/crislainesc) 😊
