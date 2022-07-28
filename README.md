@@ -13,13 +13,15 @@ Tecnologias utilizadas até o momento:
 
 ## 💻 Projetos Desenvolvidos
 
-- [Login & Registration Form Using HTML, CSS & JavaScript](./form-login-registration/)
+- [Formuláriod de Login e Cadastro usando](./form-login-registration/)
 
-- [Password Generator Using HTML, CSS & JavaScript](./password-generator/)
+- [Gerador de Senhas usando](./password-generator/)
 
-- [Analog Clock Using HTML, CSS & JavaScript](./analog-clock/)
+- [Relógio Analógico](./analog-clock/)
 
-- [Typing Speed Test Using HTML, CSS & JavaScript](./typing-speed-test/)
+- [Teste de Velocidade na Digitação](./typing-speed-test/)
+
+- [Imagens Reponsivas](./responsive-images/)
 
 ---
 ⌨️ com ❤️ por [Crislâine Santos](https://gist.github.com/crislainesc) 😊
