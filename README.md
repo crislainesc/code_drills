@@ -21,7 +21,7 @@ Tecnologias utilizadas até o momento:
 
 - [Teste de Velocidade na Digitação](./typing-speed-test/)
 
-- [Imagens Reponsivas](./responsive-images/)
+- [Imagens Responsivas](./responsive-images/)
 
 ---
 ⌨️ com ❤️ por [Crislâine Santos](https://gist.github.com/crislainesc) 😊
