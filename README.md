@@ -13,9 +13,9 @@ Tecnologias utilizadas até o momento:
 
 ## 💻 Projetos Desenvolvidos
 
-- [Formulário de Login e Cadastro usando](./form-login-registration/)
+- [Formulário de Login e Cadastro](./form-login-registration/)
 
-- [Gerador de Senhas usando](./password-generator/)
+- [Gerador de Senhas](./password-generator/)
 
 - [Relógio Analógico](./analog-clock/)
 
