@@ -13,7 +13,7 @@ Tecnologias utilizadas até o momento:
 
 ## 💻 Projetos Desenvolvidos
 
-- [Formuláriod de Login e Cadastro usando](./form-login-registration/)
+- [Formulário de Login e Cadastro usando](./form-login-registration/)
 
 - [Gerador de Senhas usando](./password-generator/)
 
