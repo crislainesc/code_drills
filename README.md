@@ -23,5 +23,7 @@ Tecnologias utilizadas até o momento:
 
 - [Imagens Responsivas](./responsive-images/)
 
+- [Landing Page](./landing-page/)
+
 ---
 ⌨️ com ❤️ por [Crislâine Santos](https://gist.github.com/crislainesc) 😊
